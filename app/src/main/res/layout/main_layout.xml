@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.chrome.beta.UrlBar
+        android:id="@+id/url_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:imeOptions="actionGo|flagNoExtractUi|flagNoFullscreen"
+        android:textSize="@dimen/location_bar_url_text_size"
+        android:inputType="textUri"
+        android:hint="@string/search_or_type_web_address" />
+
+    <EditText
+        android:id="@+id/username"
+        android:inputType="textWebEmailAddress"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textWebPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <Switch
+        android:id="@+id/switchImportantForAutofill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="URL bar important for Autofill (restarts the app when changed)" />
+
+    <TextView
+        android:id="@+id/explanationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
