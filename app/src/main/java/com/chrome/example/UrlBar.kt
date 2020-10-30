@@ -8,7 +8,8 @@ import android.util.AttributeSet
 import android.view.ViewStructure
 import android.widget.EditText
 
-
+// Based on Chromium's UrlBarApi26.java
+// @see https://source.chromium.org/chromium/chromium/src/+/master:chrome/android/java/src/org/chromium/chrome/browser/omnibox/UrlBarApi26.java
 @SuppressLint("AppCompatCustomView")
 class UrlBar(context: Context, attrs: AttributeSet?) : EditText(context, attrs) {
 
