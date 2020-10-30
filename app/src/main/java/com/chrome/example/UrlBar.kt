@@ -1,4 +1,4 @@
-package com.chrome.beta
+package com.chrome.example
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -7,7 +7,6 @@ import android.text.SpannableStringBuilder
 import android.util.AttributeSet
 import android.view.ViewStructure
 import android.widget.EditText
-import androidx.appcompat.widget.AppCompatEditText
 
 
 @SuppressLint("AppCompatCustomView")

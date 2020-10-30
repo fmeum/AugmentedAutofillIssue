@@ -1,4 +1,4 @@
-package com.chrome.beta
+package com.chrome.example
 
 import android.app.Activity
 import android.content.ComponentName
