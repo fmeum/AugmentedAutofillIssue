@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-Based on Chromium's url_bar.xml
-https://source.chromium.org/chromium/chromium/src/+/master:chrome/android/java/res/layout/url_bar.xml
--->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.chrome.example.UrlBar
+    <EditText
         android:id="@+id/url_bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@null"
-        android:gravity="center_vertical"
-        android:singleLine="true"
-        android:imeOptions="actionGo|flagNoExtractUi|flagNoFullscreen"
-        android:textSize="@dimen/location_bar_url_text_size"
         android:inputType="textUri"
         android:hint="@string/search_or_type_web_address" />
 
